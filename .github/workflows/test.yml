@@ -1,0 +1,17 @@
+name: Docker container example
+on: push
+
+jobs:
+  # Label of the container job
+  container-job:
+    # Containers must run in Linux based operating systems
+    runs-on: ubuntu-latest
+    # Docker Hub image that `container-job` executes in
+    container: ghcr.io/noda-test/actionstraining:main
+
+    # Service containers to run with `container-job`
+    services:
+      # Label used to access the service container
+      docker:
+        # Docker Hub image
+        image: docker
