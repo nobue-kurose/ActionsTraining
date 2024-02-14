@@ -2,7 +2,10 @@ name: Add issues to projects from labels
 
 on: 
   issues
-       
+
+permissions:
+  write-all
+  
 jobs:
   add-to-project:
     name: Add issue to project
