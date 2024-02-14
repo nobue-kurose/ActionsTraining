@@ -11,7 +11,7 @@
 - 特定のラベルが付いたissueを対応したProjectへ登録する例
   - https://github.com/noda-test/ActionsTraining/blob/main/.github/workflows/auto_assign.yml
   - Projectの操作には対応したPATが必要です
-    - Repository Secretで安全にPATを利用する方法
+    - Repository Secretで安全にPATを利用する方法  
       https://docs.github.com/ja/actions/security-guides/using-secrets-in-github-actions  
 
 ### Dockerfileの作成とPackagesへの登録
@@ -27,4 +27,6 @@
 - Packagesからの起動手順
   - https://github.com/noda-test/ActionsTraining/blob/main/.github/workflows/test.yml
 
-### 
+### internalレポジトリ内のWorkflowを呼び出し実行
+- Reusable workflow  
+  https://docs.github.com/ja/enterprise-cloud@latest/actions/using-workflows/reusing-workflows

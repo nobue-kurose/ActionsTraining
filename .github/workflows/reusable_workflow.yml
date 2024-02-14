@@ -1,0 +1,16 @@
+# This is a basic workflow to help you get started with Actions
+name: Reusable workflow
+# Controls when the workflow will run  
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ reussing ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  call-workflow:
+    uses: 12949-noda/internal/.github/workflows/reusable-workflow.yml@main
+    with:
+      username: ${{ github.actor }}
+    secrets:
+      token: ${{secrets.GITHUB_TOKEN}} 
