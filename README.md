@@ -19,6 +19,7 @@
 
 ### Releaseへの登録
 - Workflow上の権限として`contents: write` が必要です
+- tagの追加をトリガーに実行
 
 ### Serviceコンテナの作成方法
 - GitHubドキュメント
