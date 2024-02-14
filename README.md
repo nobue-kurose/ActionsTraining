@@ -23,5 +23,7 @@
 ### Serviceコンテナの作成方法
 - GitHubドキュメント
   - https://docs.github.com/ja/enterprise-cloud@latest/actions/using-containerized-services/about-service-containers
-- 
+- Packagesからの起動手順
+  - https://github.com/noda-test/ActionsTraining/blob/main/.github/workflows/test.yml
+
 ### 
