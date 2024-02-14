@@ -15,3 +15,6 @@ jobs:
       docker:
         # Docker Hub image
         image: docker
+    steps:
+      - run: echo "hello world!" 
+ 
