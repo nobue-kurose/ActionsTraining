@@ -1,0 +1,20 @@
+name: Add issues to projects from labels
+
+on: 
+  issues
+       
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Move labeled issues
+        uses: actions/add-to-project@v0.4.0
+        with:
+          # You can target a repository in a different organization
+          # to the issue
+          project-url: https://github.com/orgs/noda-test/projects/1
+          github-token: ${{ secrets.GHPROJECT_TOKEN }}
+          labeled: Training
+          label-operator: OR          
+          
