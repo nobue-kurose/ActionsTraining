@@ -17,7 +17,7 @@ jobs:
           # You can target a repository in a different organization
           # to the issue
           project-url: https://github.com/orgs/noda-test/projects/1
-          github-token: ${{ secrets.GHPROJECT_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           labeled: Training
           label-operator: OR          
           
