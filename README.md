@@ -19,7 +19,7 @@
 
 ### Releaseへの登録
 - Workflow上の権限として`contents: write` が必要です
-- 例としてVSCodeからのcommit tagの追加をトリガーにWorkflowを実行 tagの追加
+- 例としてVSCodeからのcommit tagの追加をトリガーにWorkflowを実行 tag v1.0.2
 
 ### Serviceコンテナの作成方法
 - GitHubドキュメント
